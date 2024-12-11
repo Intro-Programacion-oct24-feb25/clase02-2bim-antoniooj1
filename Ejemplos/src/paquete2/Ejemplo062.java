@@ -5,7 +5,9 @@
  */
 package paquete2;
 
+import java.util.Locale;
 import java.util.Scanner;
+ 
 
 /**
  *
@@ -19,6 +21,7 @@ public class Ejemplo062 {
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         double dato;
         // arreglo de tipo entero
         double[] arreglo1 = new double[7];

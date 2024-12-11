@@ -28,10 +28,13 @@ public class Ejemplo02 {
         // arreglo de tipo double
         double[] arreglo2 = new double[5];
         System.out.println(arreglo2[0]);
+        //imprime 0.0 porque es double y no tiene ningun valor asignado
         
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
         System.out.println(arreglo4[0]);
+             //imprime null porque es string y no tiene ningun valor asignado
+
         
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
